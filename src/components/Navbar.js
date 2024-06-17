@@ -325,7 +325,7 @@ const Navbar = () => {
                   Home
                 </span>
               </Link>
-              <Link href="/animeplayer">
+              <Link href="/animesongs">
                 <span className="block text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
                   Anime Songs
                 </span>

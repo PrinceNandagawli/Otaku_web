@@ -161,14 +161,14 @@ const AnimeCards = () => {
 ) : (
         <div className="flex flex-col items-center w-full">
           {/* Trending Anime */}
-          <div className="my-14 m-4 w-full sm:w-11/12 flex flex-col items-center">
+          <div className="my-24 m-4 w-full sm:w-11/12 flex flex-col items-center">
             <h2 className="text-2xl font-bold mb-12 self-start ml-4">Trending Anime</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 justify-center">
               {trendingAnime.map((anime, index) => (
                 <Link key={anime.id} href={`/animeplayer?animeId=${anime.id}`} passHref>
                   <div className="relative cursor-pointer">
                     <div className="w-full sm:w-56 rounded overflow-hidden shadow-lg cursor-pointer relative hover:opacity-60 transition duration-300 ease-in-out">
-                      <img className="w-max h-72 object-cover rounded-md" src={anime.coverImage.large} alt={anime.title.english} />
+                      <img className="w-full h-80 object-cover rounded-md" src={anime.coverImage.large} alt={anime.title.english} />
                       <div className="text-2xl w-10 h-10 absolute top-2 left-2 bg-white text-black font-black rounded-md pl-3 pt-1 ">{index + 1}</div>
                     </div>
                   </div>
@@ -178,14 +178,14 @@ const AnimeCards = () => {
           </div>
 
           {/* Top Anime Airing */}
-          <div className="my-14 m-4 w-full sm:w-11/12 flex flex-col items-center">
+          <div className="my-24 m-4 w-full sm:w-11/12 flex flex-col items-center">
             <h2 className="text-2xl font-bold mb-12 self-start  ml-4">Top Anime Airing</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-14 justify-center">
               {animeList.map(anime => (
                 <Link key={anime.id} href={`/animeplayer?animeId=${anime.id}`} passHref>
                   <div className="w-full sm:w-56 rounded overflow-hidden shadow-lg cursor-pointer relative">
                     <div className="w-full sm:w-56 rounded overflow-hidden shadow-lg cursor-pointer relative hover:opacity-60 transition duration-300 ease-in-out">
-                      <img className="w-max h-96 object-cover" src={anime.coverImage.large} alt={anime.title.english} />
+                      <img className="w-72 h-96 object-cover" src={anime.coverImage.large} alt={anime.title.english} />
                       <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-55 text-white px-4 py-2">
                         <span className="text-lg font-bold">{anime.title.english}</span>
                       </div>
