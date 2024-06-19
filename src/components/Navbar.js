@@ -22,21 +22,21 @@ const genres = [
   "Girls Love",
   "Gourmet",
   "Harem",
+  "Reverse Harem",
   "Horror",
   "Isekai",
+  "Psychological",
   "Iyashikei",
   "Josei",
   "Kids",
   "Magic",
-  "Mahou Shoujo",
   "Martial Arts",
   "Mecha",
   "Military",
   "Music",
+  "Mahou Shoujo",
   "Mystery",
   "Parody",
-  "Psychological",
-  "Reverse Harem",
   "Romance",
   "School",
   "Sci-Fi",
@@ -255,7 +255,7 @@ const Navbar = () => {
                 </span>
                 {isGenresOpen && (
                   <div
-                    className="z-20 w-max absolute bg-slate-800 text-white mt-2 p-4 rounded shadow-lg grid grid-cols-3 gap-4"
+                    className="z-20 w-max absolute bg-slate-800 text-white  mt-2 p-4  rounded shadow-lg grid grid-cols-3 gap-4"
                     onMouseOver={() => setIsGenresOpen(true)}
                     onMouseOut={() => setIsGenresOpen(false)}
                   >

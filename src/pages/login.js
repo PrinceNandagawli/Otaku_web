@@ -1,11 +1,13 @@
 import Signin from '@/components/Signin';
-import Navbar from '@/components/Navbar';
+// import Footer from '@/components/Footer';
+// import Navbar from '@/components/Navbar';
 
 const LoginPage = () => {
   return (
     <div>
       {/* <Navbar /> */}
       <Signin/>
+      
     </div>
   );
 };

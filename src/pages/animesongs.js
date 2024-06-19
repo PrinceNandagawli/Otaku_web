@@ -1,4 +1,5 @@
 import AnimeSongs from '@/components/Animesongs';
+import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 
 const SongsPage = () => {
@@ -6,6 +7,7 @@ const SongsPage = () => {
     <div>
       {/* <Navbar /> */}
       <AnimeSongs/>
+      
     </div>
   );
 };

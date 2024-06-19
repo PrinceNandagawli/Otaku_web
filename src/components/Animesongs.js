@@ -84,7 +84,7 @@ const AnimeSongs = () => {
   };
 
   return (
-    <div className="h-screen p-4 flex flex-col">
+    <div className="h-full p-4 flex flex-col">
       <h1 className="text-2xl font-bold mb-4">Top Songs</h1>
       {loading ? (
          <div className="flex justify-center items-center h-full w-full">
