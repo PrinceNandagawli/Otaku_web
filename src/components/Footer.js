@@ -49,7 +49,7 @@ const Footer=()=>{
                                 
                         </a>
                     </div>
-                    <span className="text-lg text-gray-500 text-center block">©<a href="https://pagedone.io/">Otaku Web</a> 2024, All rights reserved.</span>
+                    <span className="text-lg text-gray-500 text-center block">©<a href="#">Otaku Web</a> 2024, All rights reserved.</span>
             </div>
         </div>
     </footer>
